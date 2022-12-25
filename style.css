@@ -1,0 +1,48 @@
+body {
+    width: 300px;
+}
+.tituloprincipal {
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0A3871;
+}
+input {
+    font-size: 30px;
+    border-color: #0A3871;
+    border-radius: 24px;
+    width: 270px;
+    height: 50px;
+    margin-left: 10px;
+
+    color:#0A3871
+}
+.button {
+    margin-left: 10px;
+}
+button {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 67px;
+    height: 67px;
+
+    background: #FFFFFF;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color:#0A3871;
+    font-size: 16px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 10px;
+}
+#btnlimpar {
+    width: 280px;
+}
+button:hover {
+    background: #cfcdcd;
+}

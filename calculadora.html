@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="tituloprincipal">Calculadora</h1>
+        </header>
+
+        <div class="tela">
+            <input>
+        </div>
+
+        <div class="button">
+            <br>
+            <button onclick="teclado('1')">1</button>
+            <button onclick="teclado('2')">2</button>
+            <button onclick="teclado('3')">3</button>
+            <button onclick="defineOperacao('+')">+</button>
+            <br>
+            <button onclick="teclado('4')">4</button>
+            <button onclick="teclado('5')">5</button>
+            <button onclick="teclado('6')">6</button>
+            <button onclick="defineOperacao('-')">-</button>
+            <br>
+            <button onclick="teclado('7')">7</button>
+            <button onclick="teclado('8')">8</button>
+            <button onclick="teclado('9')">9</button>
+            <button onclick="defineOperacao('X')">X</button>
+            <br>
+            <button onclick="teclado('.')">.</button>
+            <button onclick="teclado('0')">0</button>
+            <button onclick="calcula()">=</button>
+            <button onclick="defineOperacao('÷')">÷</button>
+            <br>
+            <button onclick="limpa()" id="btnlimpar">Limpar</button>
+        </div>
+    </body>
+</html>
