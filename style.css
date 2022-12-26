@@ -1,5 +1,7 @@
 body {
-    width: 300px;
+    display: inline-block;
+    max-width: 326px;
+    width: 90%;
 }
 .tituloprincipal {
     text-align: center;
@@ -21,6 +23,7 @@ input {
     margin-left: 10px;
 }
 button {
+    display: inline;
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
